@@ -58,7 +58,7 @@ Use the `makedeb` script provided under `pkg/deb`, i.e. run
 ./pkg/deb/makedeb
 ```
 from the root project directory.
-You may need to install the `build-essential` and `devscripts` packages beforehand.
+You may need to install the `build-essential`, `devscripts`, `cargo` and `debhelper` packages beforehand.
 The final package will be in the `pkg/deb` directory.
 
 
